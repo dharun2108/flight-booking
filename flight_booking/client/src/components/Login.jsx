@@ -51,8 +51,8 @@ const Login = () => {
     }
   };
   useEffect(() => {
-    if (!localStorage.getItem("email")) {
-      navigate("/login");
+    if (localStorage.getItem("email")) {
+      navigate("/");
     }
   }, []);
 

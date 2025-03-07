@@ -80,6 +80,8 @@ const RegistrationForm = () => {
         console.error("registration Error:", error)
   });
   };
+    
+    
 
 
   return (
