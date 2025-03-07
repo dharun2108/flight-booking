@@ -1,0 +1,99 @@
+/* Login Modal Styles */
+.login-modal::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+  /* background: rgba(230, 226, 171, 0.4); */
+  background-image: url('../assets/43060.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  z-index: -1;
+
+}
+
+
+.login-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+  }
+  
+  .login-form {
+    margin-right: 50%;
+    color: #297BBE;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #b8b5b563;
+  }
+  
+  .submit-btn {
+    background-color:#297BBE;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #4aa1d4
+  }
+  
+  .close-btn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .close-btn:hover {
+    background-color: #c82333;
+  }
+  .register-link{
+    text-decoration: underline;
+    color: blue;
+  }
+  .register-link:hover{
+    cursor: pointer;
+  }
+  .account{
+    margin-top: 8px;
+  
+  }
+

@@ -1,0 +1,101 @@
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(230, 226, 171, 0.4); */
+  background-image: url('../assets/travelling-concept-with-group-travelers-miniature.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color:  white;
+
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #0671A8;
+}
+
+th {
+  background-color:  #0671A8;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  border:1px solid white
+}
+
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+
+tr:hover {
+  background-color: #cde4e49c;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 3px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.edit-button{
+  background-color: rgb(221, 188, 2);
+}
+button:nth-of-type(2) {
+  background-color: #dc3545;
+  color: white;
+}
+
+.bookedlist-button{
+  margin-left: 62%;
+}
+
+.save-button{
+  background-color: rgba(69, 140, 3, 0.85);
+}
+
+.cancel-button-container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.cancel-button {
+  background-color: #ff3b30;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.back-button{
+  margin-top: 14%;
+  color:white;
+  padding: 10px 20px;
+  background-color: #0671A8;
+  margin-right: 100%;
+
+}
+
+/* Show table button */
+.show-table-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
